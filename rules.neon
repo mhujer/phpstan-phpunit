@@ -3,3 +3,11 @@ services:
 		class: PHPStan\Rules\PHPUnit\AssertSameDifferentTypesRule
 		tags:
 			- phpstan.rules.rule
+	-
+		class: PHPStan\Rules\PHPUnit\AssertSameWithBooleanRule
+		tags:
+			- phpstan.rules.rule
+	-
+		class: PHPStan\Rules\PHPUnit\AssertSameWithNullRule
+		tags:
+			- phpstan.rules.rule
