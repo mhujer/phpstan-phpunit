@@ -15,3 +15,7 @@ services:
 		class: PHPStan\Rules\PHPUnit\AssertSameWithCountRule
 		tags:
 			- phpstan.rules.rule
+	-
+		class: PHPStan\Rules\PHPUnit\AssertEqualsWithoutExplanationRule
+		tags:
+			- phpstan.rules.rule
